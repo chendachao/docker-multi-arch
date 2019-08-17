@@ -1,4 +1,4 @@
-FROM alpine:3.10
+FROM arm32v7/alpine:3.10
 
 WORKDIR /opt
 
