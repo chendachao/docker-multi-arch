@@ -1,0 +1,17 @@
+image: chendachao/multiarch:latest
+manifests:
+  - image: chendachao/multiarch-amd64:latest
+    platform:
+      architecture: amd64
+      os: linux
+  - image: chendachao/multiarch-arm32v7:latest
+    platform:
+      architecture: arm
+      os: linux
+      variant: v7
+
+
+
+
+      
+    
