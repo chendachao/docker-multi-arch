@@ -1,0 +1,17 @@
+image: chendachao/myapp:v1
+manifests:
+  - image: chendachao/myapp-amd64:v1
+    platform:
+      architecture: amd64
+      os: linux
+  - image: chendachao/myapp-arm32v7:v1
+    platform:
+      architecture: arm
+      os: linux
+      variant: v7
+
+
+
+
+      
+    
